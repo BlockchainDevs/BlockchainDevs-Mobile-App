@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = PyCon India 2018
+title = Global Fintech Conference 2019
 
 # (str) Package name
-package.name = inpycon
+package.name = gfcconf
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.pythonindia
+package.domain = org.blockchaindevs
 
 # (str) Source code where the main.py live
 source.dir = eventsapp
@@ -36,7 +36,7 @@ version = 0.4.0
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = android, kivy, openssl, requests, pil, futures, sentry-sdk==0.3.0, urllib3, certifi
+requirements = python2, android, kivy, openssl, requests, futures, sentry-sdk==0.3.0, urllib3, certifi
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -187,7 +187,7 @@ p4a.branch = master
 #android.library_references =
 
 # (str) Android logcat filters to use
-#android.logcat_filters = *:S python:D
+android.logcat_filters = *:S python:D
 
 # (bool) Copy library instead of making a libpymodules.so
 #android.copy_libs = 1

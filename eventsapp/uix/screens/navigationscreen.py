@@ -139,7 +139,7 @@ class NavigationScreen(Screen):
         mipmap: True
         allow_stretch: True
         #color: 1, 1, 1, .03
-        color: app.base_active_bright[:3] + [.05]
+        color: app.base_active_bright[:3] + [.1]
         source: 'atlas://data/default/circle1'
     BoxLayout
         orientation: "vertical"

@@ -1,15 +1,15 @@
 {
 	"0.0.1":[
 		{
-			"name": "PyCon India",
-			"about": "PyCon India, the premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.",
-			"photo": "https://in.pycon.org/2018/img/banner-logo.png",
+			"name": "Blockchain Communities in India",
+			"about": "Global Fintech Conference 2019, is a Community event a collaboration between Ramanujan College - Delhi University & Different Blockchain Communities from All around India. Namely: BlockchainDevs, HyperLedger Delhi/NCR, ZCash India",
+			"photo": "atlas://data/default/logo",
 			"social":{
-				"website": "https://in.pycon.org/2018/",
-				"twitter": "https://twitter.com/pyconindia",
-				"facebook": "https://www.facebook.com/pyconindia",
-				"github": "https://github.com/pythonindia",
-				"youtube": "https://www.youtube.com/user/inpycon"
+				"website": "https://blockchaincon.io",
+				"twitter": "https://twitter.com/blockchainconio",
+				"facebook": "https://www.facebook.com/BlockchainConIo/",
+				"github": "https://github.com/BlockchainDevs",
+				"youtube": "https://www.youtube.com"
 			}
 		}
 	]

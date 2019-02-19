@@ -87,14 +87,14 @@ class ScreenSchedule(Screen):
                 pos: self.x, self.top - dp(45)
         orientation: 'vertical'
         padding: dp(4)
-        TabbedPanel
+        TabbedCarousel
             id: accordian_days
-            canvas.before:
-                Color
-                    rgba: app.base_inactive_light
-                Rectangle:
-                    size: self.width + dp(12), dp(54)
-                    pos: -dp(4), -dp(4)
+            # canvas.before:
+            #     Color
+            #         rgba: app.base_inactive_light
+            #     Rectangle:
+            #         size: self.width + dp(12), dp(54)
+            #         pos: -dp(4), -dp(4)
 
             background_color: 1, 1, 1, 0
             do_default_tab: False
@@ -167,6 +167,7 @@ class ScreenSchedule(Screen):
         dates.remove('tracks')
         # each day could have multiple tracks
         tracks = schedule['tracks']
+        ltracks = len(tracks)
         dates = sorted(
             dates,
             key=lambda x: datetime.datetime.strptime(x, '%Y-%m-%d'))
@@ -184,12 +185,15 @@ class ScreenSchedule(Screen):
             ccday = strt(date, "%Y-%m-%d")
             cday = TI(text=ccday.strftime("%d %b"))
 
-            if not first:
-                first = cday
-            acordion_add(cday)
+            if ltracks > 1: 
+                acordion_add(cday)
+            
             day_sched = schedule[date]
             order, day_sched = day_sched[0]["order"], day_sched[1:]
-            tracks = [schedule['tracks'][int(trk)-1] for trk in order]
+            try:
+                tracks = [schedule['tracks'][int(trk)-1] for trk in order]
+            except IndexError:
+                tracks = [schedule['tracks'][0]]
             # create a carousel for each track
             tcarousel = TabbedCarousel()
             ti = TalkInfo
@@ -197,22 +201,14 @@ class ScreenSchedule(Screen):
             # this carousel would show each track as new tab
             trackscreens = []
             tsa = trackscreens.append
-            tca = tcarousel.add_widget
+            tca = tcarousel.add_widget if ltracks > 1 else acordion_add
             for track in tracks:
-                new_trk = Track(name=track,)
+                new_trk = Track(name=track if ltracks > 1 else ccday.strftime("%d %b"),)
                 tsa(new_trk)
                 # add track to carousel
                 tca(new_trk)
 
             for talk in day_sched:
-                # try:
-                #     stime = "%s -- %s" % (date, talk['start_time'])
-                #     etime = "%s -- %s" % (date, talk['end_time'])
-                #     stime = strt(stime, "%Y-%m-%d -- %H:%M")
-                #     etime = strt(etime, "%Y-%m-%d -- %H:%M")
-                #     talk['current'] = today > stime and today < etime
-                # except:
-                #     pass
                 tid = talk['track']
                 if tid.lower() == 'all':
                     for tlk in trackscreens:
@@ -225,11 +221,6 @@ class ScreenSchedule(Screen):
                 except IndexError:
                     pass
 
-            cday.add_widget(tcarousel)
-            if (ccday.day, ccday.month, ccday.year) ==\
-               (today.day, today.month, today.year):
-                first = cday
-        if first:
-            first.trigger_action()
-            first = False
+            if ltracks > 1: cday.add_widget(tcarousel)
+        
         Factory.Animation(d=.5, opacity=1).start(container)
