@@ -72,22 +72,22 @@ class NavigationScreen(Screen):
             #         load_screen(\
             #         'ScreenDevSprints', manager=app.navigation_manager)
             MenuButton
-                text: 'Ticket'
+                text: 'Conference Feedback'
                 on_released:
-                    load_screen(\
-                    'ScreenTicket', manager=app.navigation_manager)
+                    scr = load_screen("ScreenFeedback", manager=app.navigation_manager)
+                    scr.talk = "Feedback for Conference"
             MenuButton
                 text: 'Community'
                 on_released:
                     load_screen(\
                     'ScreenCommunity', manager=app.navigation_manager)
-            MenuButton
-                down_count: 0
-                text: 'Registration'
-                on_released: self.down_count += 1
-                on_down_count:
-                    if args[1] == 5:load_screen(\
-                    'ScreenRegister', manager=app.navigation_manager); self.down_count = 0
+            # MenuButton
+            #     down_count: 0
+            #     text: 'Registration'
+            #     on_released: self.down_count += 1
+            #     on_down_count:
+            #         if args[1] == 5:load_screen(\
+            #         'ScreenRegister', manager=app.navigation_manager); self.down_count = 0
             MenuButton
                 text: 'About'
                 on_released:

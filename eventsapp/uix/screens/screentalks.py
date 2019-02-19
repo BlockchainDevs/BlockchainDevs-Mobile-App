@@ -85,7 +85,7 @@ class ScreenTalks(Screen):
                 data: talk_title.text
                 source: 'atlas://data/default/share'
                 color: app.base_active_bright[:3] + [.9]
-                on_release: do_share("Check out this talk " + self.data + "by " + self._speaker_name , "BlockchainCon 2019")
+                on_release: do_share("Check out this talk " + self.data + " by " + root._speaker_name  + " in Global Fintech Conference http://blockchaincon.io", "BlockchainCon 2019")
             # ImBut
             #     data: ''
             #     source: 'atlas://data/default/reminder'
