@@ -27,6 +27,24 @@ class ScreenCommunity(Screen):
                 height: self.minimum_height
                 padding: '9dp'
                 spacing: '9dp'
+            ImBut
+                color: 1, 1, 1, 1
+                source: 'data/images/hyperledger.png'
+                height: dp(100)
+                on_released: import webbrowser; webbrowser.open('https://www.meetup.com/Hyperledger-Delhi-NCR/')
+            ImBut
+                height: dp(100)
+                color: 1, 1, 1, 1
+                source: 'data/images/zcash.jpeg'
+                on_released: import webbrowser; webbrowser.open('https://www.meetup.com/Zcash-India/')
+            ImBut
+                height: dp(100)
+                color: 1, 1, 1, 1
+                source: 'data/images/blockchain_devs.jpg'
+                on_released: import webbrowser; webbrowser.open('https://www.meetup.com/Blockchain_Developers/')
+
+
+            
         ''')
 
     def on_pre_enter(self):
