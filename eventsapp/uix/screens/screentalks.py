@@ -85,7 +85,7 @@ class ScreenTalks(Screen):
                 data: talk_title.text
                 source: 'atlas://data/default/share'
                 color: app.base_active_bright[:3] + [.9]
-                on_release: do_share(self.data, "PyCon India 2018")
+                on_release: do_share("Check out this talk " + self.data + "by " + self._speaker_name , "BlockchainCon 2019")
             # ImBut
             #     data: ''
             #     source: 'atlas://data/default/reminder'
@@ -103,6 +103,7 @@ class ScreenTalks(Screen):
         container.opacity = 0
 
     def on_enter(self, onsuccess=False):
+        self._speaker_name = ''
         container = self.ids.container
 
         if self.from_back:
@@ -130,6 +131,7 @@ class ScreenTalks(Screen):
         if 'speaker' in talk_info.keys():
             speaker = talk_info['speaker']
             if speaker['name']:
+                self._speaker_name = speaker['name']
                 speaker_details = SpeakerDetails(speaker=speaker)
                 if 'social' in speaker:
                     speaker_social = speaker['social']
