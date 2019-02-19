@@ -51,11 +51,11 @@ class NavigationScreen(Screen):
                 on_released:
                     load_screen(\
                     'ScreenSchedule', manager=app.navigation_manager)
-            MenuButton
-                text: 'Sponsors'
-                on_released:
-                    load_screen(\
-                    'ScreenSponsor', manager=app.navigation_manager)
+            # MenuButton
+            #     text: 'Sponsors'
+            #     on_released:
+            #         load_screen(\
+            #         'ScreenSponsor', manager=app.navigation_manager)
             MenuButton
                 text: 'Venue'
                 on_released:
@@ -66,11 +66,11 @@ class NavigationScreen(Screen):
                 on_released:
                     load_screen(\
                     'ScreenOpenSpaces', manager=app.navigation_manager)
-            MenuButton
-                text: 'DevSprints'
-                on_released:
-                    load_screen(\
-                    'ScreenDevSprints', manager=app.navigation_manager)
+            # MenuButton
+            #     text: 'DevSprints'
+            #     on_released:
+            #         load_screen(\
+            #         'ScreenDevSprints', manager=app.navigation_manager)
             MenuButton
                 text: 'Ticket'
                 on_released:

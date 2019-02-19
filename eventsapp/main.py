@@ -41,7 +41,7 @@ import webbrowser
 from utils import load_screen
 
 
-class PyConApp(App):
+class ConApp(App):
     '''
     Our main app class:
     '''
@@ -133,4 +133,4 @@ class PyConApp(App):
 
 # Check if app is started as main and only then insitantiate the App class.
 if __name__ == '__main__':
-    PyConApp().run()
+    ConApp().run()

@@ -6,7 +6,7 @@
         {"order":[1]},
         {
           "talk_id": "00",
-          "title": "Registration @ Shankar Lal Concert Hall",
+          "title": "Registration",
           "start_time": "09:15",
           "end_time": "9:45",
           "track": "all"
@@ -33,7 +33,7 @@
           "track": "1"
         },
         {
-          "talk_id": "04",
+          "talk_id": "98",
           "title": "Tea & Networking",
           "start_time": "11:00",
           "end_time": "11:15",
@@ -71,7 +71,7 @@
           "talk_id": "08",
           "title": "Quantum Resistant and Quantum Assisted Blockchains - Algorithms, Architectures and Applications\nBy Gokul Alex",
           "start_time": "13:30",
-          "end_time": "2:15",
+          "end_time": "14:15",
           "track": "1"
         },
         {
@@ -83,10 +83,10 @@
         },
         {
           "talk_id": "10",
-          "title": "Panel Discusssion: Cryptography,  Finance,  Law & Regulations around Decentralised Technologies \nBy Kumar Bijoy,  Gokul Alex, Pavan Duggal, Vishal Saraswat, Inderdeep Ghosh", 
+          "title": "Panel Discusssion: Cryptography,  Finance,  Law & Regulations around Decentralised Technologies \nBy Kumar Bijoy,  Gokul Alex, Pavan Duggal, Vishal Saraswat, Indardeep Ghosh", 
           "start_time": "14:45",
           "end_time": "15:30",
-          "track": "3"
+          "track": "1"
         },
         {
           "talk_id": "11",
@@ -96,7 +96,7 @@
           "track": "1"
         },
         {
-          "talk_id": "04",
+          "talk_id": "98",
           "title": "Tea & Networking",
           "start_time": "15:45",
           "end_time": "16:00",
@@ -111,7 +111,7 @@
         },
         {
           "talk_id": "13",
-          "title": "Can payment banks deliver financial inclusion? \nBy Inderdeep Ghosh",
+          "title": "Can payment banks deliver financial inclusion? \nBy Indradeep Ghosh",
           "start_time": "16:30",
           "end_time": "17:00",
           "track": "1"
@@ -122,183 +122,78 @@
         {
           "talk_id": "00",
           "title": "Registration",
-          "start_time": "08:00",
-          "end_time": "9:30",
+          "start_time": "10:00",
+          "end_time": "10:30",
           "track": "all"
-        },
-        {
-          "talk_id": "13",
-          "title": "Opening Address By Manivannan Elangovan, Chair - PyCon India 2018",
-          "start_time": "09:30",
-          "end_time": "9:45",
-          "track": "1"
         },
         {
           "talk_id": "14",
-          "title": "Keynote 1 by Armin Ronacher",
-          "start_time": "09:45",
-          "end_time": "10:45",
+          "title": "Handling Nonstationarity in Financial Time Series Analysis By Jaidev Deshpande",
+          "start_time": "10:30",
+          "end_time": "11:00",
           "track": "1"
         },
         {
-          "talk_id": "98",
-          "title": "Tea",
-          "start_time": "10:45",
-          "end_time": "11:15",
-          "track": "all"
-        },
-        {
           "talk_id": "15",
-          "title": "How Helpshift built machine learning platform using Python at large scale\nBy Shyam Shinde",
-          "start_time": "11:20",
-          "end_time": "11:50",
+          "title": "Detailed Study of Distributed Ledgers Operated at Scale By Tapasweni Pathak",
+          "start_time": "11:00",
+          "end_time": "12:00",
           "track": "1"
         },
         {
           "talk_id": "16",
-          "title": "Large scale web crawling using Python By Anand B Pillai and Noufal Ibrahim",
-          "start_time": "11:20",
-          "end_time": "11:50",
-          "track": "2"
+          "title": "Principles behind consensus protocols (e.g. Algorand, Avalanche), by Prashant Agarwal",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "track": "all"
+        },
+        {
+          "talk_id": "97",
+          "title": "Lunch & Networking",
+          "start_time": "13:00",
+          "end_time": "14:00",
+          "track": "1"
         },
         {
           "talk_id": "17",
-          "title": "Creating 3rd generation Web APIs using Hydra and Hydrus\nBy Akshay Dahiya",
-          "start_time": "11:20",
-          "end_time": "11:50",
-          "track": "3"
+          "title": "Impact of the intersection of AI, IoT, and Blockchain on FinTech by Anurag Yadav",
+          "start_time": "14:00",
+          "end_time": "14:30",
+          "track": "1"
         },
         {
           "talk_id": "18",
-          "title": "Python Project Workflows - Continuous Deployment Friendly\nBy Abhijit Gadgil",
-          "start_time": "11:55",
-          "end_time": "12:25",
+          "title": "Panel Discusssion: AI & Blockchain in Finance\nBy Jaidev Deshpande, Prasanna Lohar, Deepak Lalan, Tapasweni Pathak, Prashant Aggarwal, Oliver Feldmeier",
+          "start_time": "14:30",
+          "end_time": "15:30",
+          "track": "1"
+        },
+        {
+          "talk_id": "98",
+          "title": "Tea & Networking",
+          "start_time": "15:30",
+          "end_time": "16:00",
           "track": "1"
         },
         {
           "talk_id": "19",
-          "title": "Sponsor Talk - DEShaw\nPyflyby: Automatic imports for Python\nBy Karl Chen",
-          "start_time": "11:55",
-          "end_time": "12:25",
-          "track": "2"
+          "title": "Identeties on blockchain and it's impact on Financial Services by Deepak Lalan",
+          "start_time": "16:00",
+          "end_time": "16:40",
+          "track": "1"
         },
         {
           "talk_id": "20",
-          "title": "Language Model (Text Analysis) using Python from scratch\nBy Divya Choudhary",
-          "start_time": "11:55",
-          "end_time": "12:25",
-          "track": "3"
-        },
-        {
-          "talk_id": "22",
-          "title": "Inside the World's Largest Python Course on Coursera\nBy Charles Severance",
-          "start_time": "12:30",
-          "end_time": "13:00",
-          "track": "1"
-        },
-        {
-          "talk_id": "23",
-          "title": "SManaging flood risk in this modern age - An Introduction to Geospatial Analytics with Python\nBy Arijit Saha and Atul Singh",
-          "start_time": "12:30",
-          "end_time": "13:00",
-          "track": "2"
-        },
-        {
-          "talk_id": "24",
-          "title": "Speed up your Python modules using Rust\nBy Abhiram Ravikumar",
-          "start_time": "12:30",
-          "end_time": "13:00",
-          "track": "3"
-        },
-        {
-          "talk_id": "97",
-          "title": "Lunch",
-          "start_time": "13:00",
-          "end_time": "14:00",
-          "track": "all"
-        },
-        {
-          "talk_id": "25",
-          "title": "The Growth of the Python Community in Africa and How Zimbabwe is Building One of the Biggest Artificial Intelligence Labs in the World\nBy Marlene Mhangami",
-          "start_time": "14:00",
-          "end_time": "14:30",
-          "track": "1"
-        },
-        {
-          "talk_id": "26",
-          "title": "Satellite Image Processing with Python\nBy Shubham Sharma",
-          "start_time": "14:00",
-          "end_time": "14:30",
-          "track": "2"
-        },
-        {
-          "talk_id": "27",
-          "title": "Metaclasses and decorators: a match made in space\nBy Ishan Srivastava",
-          "start_time": "14:00",
-          "end_time": "14:30",
-          "track": "3"
-        },
-        {
-          "talk_id": "28",
-          "title": "Community Talk \nBy Kushal Das, PSF & Mario Behling, FOSSASIA",
-          "start_time": "14:35",
-          "end_time": "15:05",
-          "track": "1"
-        },
-        {
-          "talk_id": "29",
-          "title": "Sponsor Talk - Indeed \nBy Subhas KS and Yosef Wehby",
-          "start_time": "14:35",
-          "end_time": "15:05",
-          "track": "2"
-        },
-        {
-          "talk_id": "30",
-          "title": "Deploying a Python web app onto a Kubernetes Cluster\nBy Tarun Pothulapati",
-          "start_time": "14:35",
-          "end_time": "15:05",
-          "track": "3"
-        },
-        {
-          "talk_id": "31",
-          "title": "Using NLP to demystify 'Terms and Conditions' and summarize the contents\nBy Aroma Rodrigues",
-          "start_time": "15:10",
-          "end_time": "15:40",
-          "track": "1"
-        },
-        {
-          "talk_id": "32",
-          "title": "Processing videos effectively - Piping the Parallelism out of Python\nBy R S Nikhil Krishna and Lokesh Kumar T",
-          "start_time": "15:10",
-          "end_time": "15:40",
-          "track": "2"
-        },
-        {
-          "talk_id": "33",
-          "title": "Handling DASH streams - Generation, Consumption & Clipping\nBy Arnav",
-          "start_time": "15:10",
-          "end_time": "15:40",
-          "track": "3"
-        },
-        {
-          "talk_id": "98",
-          "title": "Tea",
-          "start_time": "15:45",
-          "end_time": "16:15",
-          "track": "all"
-        },
-        {
-          "talk_id": "99",
-          "title": "Lightning Takls",
-          "start_time": "16:15",
+          "title": "Future of work with Blockchain\nBy Prasanna Lohar",
+          "start_time": "16:30",
           "end_time": "17:00",
           "track": "1"
         },
         {
           "talk_id": "34",
-          "title": "Keynote 2 by Siddu Ponappa",
+          "title": "Closing Ceremony",
           "start_time": "17:00",
-          "end_time": "18:00",
+          "end_time": "17:05",
           "track": "1"
         }
 

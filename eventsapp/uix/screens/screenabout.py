@@ -42,7 +42,7 @@ class ScreenAbout(Screen):
                     on_release:
                         import webbrowser
                         webbrowser.open(\
-                        'https://github.com/pythonindia/PyCon-Mobile-App')
+                        'https://github.com/BlockchainDevs/BlockchainDevs-Mobile-App')
     Label
         canvas.before:
             Color:

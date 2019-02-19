@@ -24,6 +24,7 @@ class ScreenCommunity(Screen):
                 row: 2
                 cols: 4
                 size_hint_y: None
+                height: self.minimum_height
                 padding: '9dp'
                 spacing: '9dp'
         ''')

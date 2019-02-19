@@ -1,16 +1,18 @@
 {
   "0.0.1":[{
-  "name": "PyCon India 2018",
-  "venue": "Hyderabad internaitonal Convention Center [HICC]",
-  "start_date": "2018-10-05T8:00:00Z",
-  "end_date": "2018-10-09T18:00:00Z",
+  "name": "blockchaincon.io 2019",
+  "venue": "Shankar Lal Concert Hall on 23rd Feb\n DU Conference Hall on 24th Feb",
+  "start_date": "2019-02-23T8:00:00Z",
+  "end_date": "2019-02-24T18:00:00Z",
   "venue_partners": [{
-      "name": "Hyderabad internaitonal Convention Center [HICC]",
-      "about": "Hyderabad International Convention Centre (HICC) is managed by AccorHotels, one of the world’s leading hotel operators, and is jointly owned by Emaar Properties PJSC Dubai and Telangana State Industrial Infrastructure Corporation Ltd.  HICC is a purpose-built, state-of-the-art convention facility, the first of its kind in South Asia. It features an internal hall measuring 6,480 square meters that can be partitioned into six smaller halls. The facility has quite a few feathers in its cap. It has been the winner of the excellence award for “Best Standalone Convention Centre” for a record four times nationally and now regionally awarded by Ministry of Tourism, Government of India and Andhra Pradesh. HICC has also received the award for ‘Best Meeting & Conference Venue” at the South India Travel Awards 2015. HICC also holds ISO 14001:2014 certification. In every aspect, be it infrastructure, services or technology, it compares with the best in the world.",
-      "url": "http://www.hicc.com",
-      "directions": "",
-      "streetview": ""
-
+      "name": "Ramanujan College Delhi University",
+      "about": "Ramanujan college is a premier institution of the University of Delhi and has been accredited grade `A` by the National Assessment and Accreditation Council (NAAC). We at Ramanujan College emphasize on the holistic development of personality and meaningful exposure to real world and in the process attain excellence. In this endeavour to organise a value packed Global FinTech Conference, Department of Commerce, Computer Science and Management Studies of Ramanujan College have locked their synergies together.",
+      "url": "http://rcdu.ac.in",
+      "photo": "data/images/venue.png",
+      "directions": "https://www.google.com/maps/dir//Sir+Shankar+Lal+Concert+Hall,+7%2F4,+Vishvavidalaya+Marg,+Kamla+Nehru+Ridge,+Civil+Lines,+Delhi,+110007/@28.6926841,77.2153808,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfdc002653047:0x3509b0ac7081df7f!2m2!1d77.2175695!2d28.6926841",
+      "directions1": "https://www.google.com/maps/place/DU+Conference+Centre,+North+Campus./@28.6879383,77.2080745,17z/data=!4m5!3m4!1s0x390cfd93a2b7227d:0x88f016ea5cb8b1bb!8m2!3d28.6879383!4d77.2102632",
+      "coords": "28.6926841,77.2153808",
+      "coords1": "28.6879383,77.2080745"
     }]
   }]
 }
