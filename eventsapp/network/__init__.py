@@ -72,8 +72,8 @@ def fetch_remote_data(dt):
         endpoint, filepath, oldata = args
         UrlRequest(
             #FIXME: initial url should be abstracted out too.
-            'https://raw.githubusercontent.com/pythonindia/'
-            'PyCon-Mobile-App/master/eventsapp/data/{}.json'.format(endpoint),
+            'https://raw.githubusercontent.com/BlockchainDevs/'
+            'BlockchainDevs-Mobile-App/master/eventsapp/data/{}.json'.format(endpoint),
             file_path=filepath,
             on_success=partial(on_success, oldata, endpoint),
             on_error=partial(on_error, oldata, endpoint),
