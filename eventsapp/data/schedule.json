@@ -117,7 +117,7 @@
           "track": "1"
         },
         {
-          "talk_id": "101",
+          "talk_id": "34",
           "title": "Closing & Group Photo",
           "start_time": "17:00",
           "end_time": "17:05",
@@ -129,35 +129,42 @@
         {
           "talk_id": "00",
           "title": "Registration",
-          "start_time": "10:00",
-          "end_time": "10:30",
+          "start_time": "9:30",
+          "end_time": "10:00",
           "track": "all"
         },
         {
-          "talk_id": "14",
-          "title": "Handling Nonstationarity in Financial Time Series Analysis By Jaidev Deshpande",
-          "start_time": "10:30",
-          "end_time": "11:00",
-          "track": "1"
+          "talk_id": "00",
+          "title": "Dapp Using Ethereum & IPFS a Hands on workshop by Tapasweni Pathak",
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "track": "all"
         },
         {
           "talk_id": "15",
           "title": "Detailed Study of Distributed Ledgers Operated at Scale By Tapasweni Pathak",
-          "start_time": "11:00",
+          "start_time": "11:30",
           "end_time": "12:00",
+          "track": "1"
+        },
+        {
+          "talk_id": "14",
+          "title": "Handling Nonstationarity in Financial Time Series Analysis By Jaidev Deshpande",
+          "start_time": "12:00",
+          "end_time": "12:30",
           "track": "1"
         },
         {
           "talk_id": "16",
           "title": "Principles behind consensus protocols (e.g. Algorand, Avalanche), by Prashant Agarwal",
-          "start_time": "12:00",
-          "end_time": "13:00",
+          "start_time": "12:30",
+          "end_time": "13:15",
           "track": "all"
         },
         {
           "talk_id": "97",
           "title": "Lunch & Networking",
-          "start_time": "13:00",
+          "start_time": "13:15",
           "end_time": "14:00",
           "track": "1"
         },
