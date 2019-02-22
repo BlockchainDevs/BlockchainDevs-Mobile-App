@@ -132,7 +132,7 @@
 				"photo": "data/images/vipinr.jpg",
 				"social": {
 					"linkedin": "https://www.linkedin.com/in/vipratos",
-					"email": "vipin68_scs@jnu.ac.in"
+					"email": "mailto:vipin68_scs@jnu.ac.in"
 				}
 			}
 		},
@@ -160,7 +160,7 @@
 				"photo": "data/images/indrdeepgosh.jpg",
 				"social": {
 					"linkedin": "https://www.linkedin.com/in/indradeep-ghosh-371b81126/",
-					"email": "indradeep.ghosh2@gmail.com"
+					"email": "mailto:indradeep.ghosh2@gmail.com"
 				}
 			}
 		},
