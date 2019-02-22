@@ -74,8 +74,8 @@ class NavigationScreen(Screen):
             MenuButton
                 text: 'Conference Feedback'
                 on_released:
-                    scr = load_screen("ScreenFeedback", manager=manager=app.navigation_manager)
-                    scr.talk = "Feedback form whole event: "
+                    scr = load_screen("ScreenFeedback", manager=app.navigation_manager)
+                    scr.talk = "Global Fintech Conference 2019 "
             MenuButton
                 text: 'Community'
                 on_released:

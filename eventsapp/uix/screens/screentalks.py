@@ -85,7 +85,7 @@ class ScreenTalks(Screen):
                 data: talk_title.text
                 source: 'atlas://data/default/share'
                 color: app.base_active_bright[:3] + [.9]
-                on_release: do_share("Check out this talk " + self.data + " by " + self._speaker_name , " BlockchainCon 2019")
+                on_release: do_share("Check out this talk " + self.data + " by " + root._speaker_name , " BlockchainCon 2019")
             # ImBut
             #     data: ''
             #     source: 'atlas://data/default/reminder'
@@ -101,7 +101,7 @@ class ScreenTalks(Screen):
     def on_pre_enter(self):
         container = self.ids.container
         container.opacity = 0
-        self._speaker_name = ''
+        if not hasattr(self, '_speaker_name'): self._speaker_name = ''
         
 
     def on_enter(self, onsuccess=False):
@@ -143,9 +143,9 @@ class ScreenTalks(Screen):
                     import webbrowser
                     # update data for share button
                     if 'proposal' in speaker_social:
-                        self.ids.but_share.data = "Checkout this talk " \
-                            + speaker_social['proposal'] + " by "\
-                            + speaker['name']
+                        self.ids.but_share.data = "Checkout this talk '" \
+                            + speaker_social['proposal'] + "' by '"\
+                            + speaker['name'] + "' @ http://Blockchaincon.io "
                     # display social buttons
                     for social_acc, social_link in items:
                         imbt = Factory.ImBut()
