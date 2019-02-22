@@ -55,7 +55,7 @@
         },
         {
           "talk_id": "07",
-          "title": "Panel Discussion: Impact of Decentralised Technology in Finance\nBy Sushmita Ruj, Debajani Mohanty, Simrit Kaur",
+          "title": "Panel Discussion: Impact of Decentralised Technology in Finance\nBy Sushmita Ruj, Debajani Mohanty, Simrit Kaur, Madhu Vij, Paritosh Basu",
           "start_time": "12:15",
           "end_time": "13:00",
           "track": "1"
@@ -114,6 +114,13 @@
           "title": "Can payment banks deliver financial inclusion? \nBy Indradeep Ghosh",
           "start_time": "16:30",
           "end_time": "17:00",
+          "track": "1"
+        },
+        {
+          "talk_id": "101",
+          "title": "Closing & Group Photo",
+          "start_time": "17:00",
+          "end_time": "17:05",
           "track": "1"
         }
       ],
