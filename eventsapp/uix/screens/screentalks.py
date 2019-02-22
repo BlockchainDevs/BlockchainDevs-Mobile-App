@@ -85,7 +85,7 @@ class ScreenTalks(Screen):
                 data: talk_title.text
                 source: 'atlas://data/default/share'
                 color: app.base_active_bright[:3] + [.9]
-                on_release: do_share("Check out this talk " + self.data + "by " + self._speaker_name , "BlockchainCon 2019")
+                on_release: do_share("Check out this talk " + self.data + " by " + self._speaker_name , " BlockchainCon 2019")
             # ImBut
             #     data: ''
             #     source: 'atlas://data/default/reminder'
@@ -101,9 +101,10 @@ class ScreenTalks(Screen):
     def on_pre_enter(self):
         container = self.ids.container
         container.opacity = 0
+        self._speaker_name = ''
+        
 
     def on_enter(self, onsuccess=False):
-        self._speaker_name = ''
         container = self.ids.container
 
         if self.from_back:
